@@ -68,6 +68,8 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
+  validate:
+    handler: src/functions/validate.validate
   loginUser:
     handler: src/functions/login.login
     events:
